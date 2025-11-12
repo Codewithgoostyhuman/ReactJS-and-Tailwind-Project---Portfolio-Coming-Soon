@@ -1,0 +1,8 @@
+@import "tailwindcss";
+body{
+    background-color: black;
+    background-image: url("/blurred-shiny-light-background.jpg");
+    background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
