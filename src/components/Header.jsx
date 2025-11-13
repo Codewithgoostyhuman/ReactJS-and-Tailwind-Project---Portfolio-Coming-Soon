@@ -3,7 +3,7 @@ import HeadLine from "./Header-Subcomponents/HeadLine";
 
 const Header = () => {
   return (
-    <header className="lg:pl-60 md:pl-40 sm:pl-20 pl-10 lg:pr-60 md:pr-40 sm:pr-20 pr-10 lg:pb-8 md:pb-6 sm:pb-4 pb-2 lg:pt-8 md:pt-6 sm:pt-4 pt-2 bg-transparent">
+    <header className="lg:pl-40 md:pl-30 sm:pl-20 pl-5 lg:pr-60 md:pr-40 sm:pr-20 pr-10 lg:pb-8 md:pb-6 sm:pb-4 pb-2 lg:pt-8 md:pt-6 sm:pt-4 pt-2 bg-transparent">
       <div className="h-fit text-white lg:p-6 md:p-4 sm:p-3 p-2 flex lg:flex-row md:flex-col sm:flex-col flex-col sm:gap-4 md-gap-3 gap-2 items-center justify-between border-2  border-gray-700 rounded-4xl hover:scale-101 transition-all ease-in-out duration-1000 bg-black hover:bg-gray-800 hover:border-2 hover:border-gray-400">
         <div className="m-auto lg:w-70 flex items-center">
           <h1 className="font-bold lg:text-2xl md:text-2xl sm:text-xl tracking-wider hover:animate-bounce">
