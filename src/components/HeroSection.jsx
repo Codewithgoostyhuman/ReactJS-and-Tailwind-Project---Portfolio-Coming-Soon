@@ -19,7 +19,7 @@ const HeroSection = () => {
         </div>
 
         <div className="flex flex-col justify-center items-center h-fit w-fit align-middle m-10 md:mt-1 sm:mt-1 lg:mt-10 transition-all duration-1000">
-          <h1 className="lg:text-5xl md:text-4xl sm:text-3xl text-2xl wrap-break-word w-auto lg:p-4 md:p-3 sm:p-2 p-2 sm:flex sm:gap-5 md:gap-6 gap-7 lg:flex lg:flex-row md:flex md:flex-row sm:flex-row items-center">
+          <h1 className="lg:text-4xl md:text-3xl sm:text-2xl text-xl wrap-break-word w-auto lg:p-4 md:p-3 sm:p-2 p-2 sm:flex sm:gap-5 md:gap-6 gap-7 lg:flex lg:flex-row md:flex md:flex-row sm:flex-row items-center">
             <span className="text-gray-300 font-extrabold bg-gray-800 lg:p-4 md:p-3 sm:p-2 p-2 lg:pr-8 md:pr-6 sm:pr-4 pr-3 lg:pl-6 md:pl-4 sm:pl-2 pl-2 rounded-r-full sm:w-fit">
               Front
             </span>{" "}
