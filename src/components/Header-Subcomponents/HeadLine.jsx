@@ -35,8 +35,8 @@ const HeadLine = () => {
         
     }, [charIndex, isDeleting, wordIndex, words]);
   return (
-    <div className='flex lg:w-40 md:w-30 sm:w-20 justify-center align-center items-center font-bold tracking-wider m-auto p-auto'>
-      <h1 className=' font-sans text-gray-300 lg:text-lg md:text-md sm:text-sm transition-all duration-100'>
+    <div className='flex lg:w-40 md:w-30 sm:w-2 w-10 justify-center align-center items-center font-bold tracking-wider m-auto p-auto'>
+      <h1 className=' font-sans text-gray-300 lg:text-lg md:text-md sm:text-sm text-sm transition-all duration-100'>
       {text}
       <span>|</span>
     </h1>
