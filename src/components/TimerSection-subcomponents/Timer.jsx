@@ -28,8 +28,8 @@ const Timer = () => {
 
   if (Object.keys(timeLeft).length === 0) {
     return (
-      <div className="flex flex-row justify-center items-center  text-center lg:p-6 md:p-4 sm:p-2 bg-green-600/50 h-fit text-white relative">
-        <h1 className="lg:text-3xl md:text-2xl sm:text-xl  font-extrabold animate-bounce">
+      <div className="flex flex-row justify-center items-center  text-center lg:p-6 md:p-4 sm:p-2 p-2 bg-indigo-500 h-fit text-white relative">
+        <h1 className="lg:text-3xl md:text-2xl sm:text-xl text-lg  font-extrabold animate-bounce">
           Finally! Wait is over now...!!!
         </h1>
       </div>
@@ -37,25 +37,25 @@ const Timer = () => {
   } else {
     const { days = 0, hours = 0, minutes = 0, seconds = 0 } = timeLeft;
     return (
-      <div className="flex flex-row justify-center items-center lg:gap-20 sm:gap-10 md:gap-15 text-center lg:p-4 md:p-3 sm:p-2 bg-gray-800/50 h-fit text-white relative border-b-2 border-t-2 border-gray-500">
-        <h1 className="lg:text-3xl md:text-2xl sm:text-xl  font-extrabold">Launch Count Down</h1>
+      <div className="flex flex-col lg:flex-row md:flex-row sm:flex-row justify-center items-center lg:gap-20 sm:gap-10 md:gap-15 text-center lg:p-4 md:p-3 sm:p-2 bg-gray-800/50 h-fit text-white relative border-b-2 border-t-2 border-gray-500">
+        <h1 className="lg:text-3xl md:text-2xl sm:text-xl text-lg mt-2  font-extrabold">Launch Count Down</h1>
 
         <div className="p-2">
           <div className="flex flex-row items-center justify-center lg:text-xl md:text-md sm:text-sm font-sans gap-2">
-            <div className="bg-orange-700 lg:p-5 md:p-4 sm:p-3 rounded-xl">
+            <div className="bg-orange-700 lg:p-5 md:p-4 sm:p-3 p-2 mb-1 rounded-xl">
               {formatTime(days)}
             </div>
             <span className="text-gray-400">:</span>
-            <div className="bg-orange-700 lg:p-5 md:p-4 sm:p-3 rounded-xl">
+            <div className="bg-orange-700 lg:p-5 md:p-4 sm:p-3 p-2 mb-1 rounded-xl">
               {formatTime(hours)}
             </div>
             <span className="text-gray-400">:</span>
 
-            <div className="bg-orange-700 lg:p-5 md:p-4 sm:p-3 rounded-xl ">
+            <div className="bg-orange-700 lg:p-5 md:p-4 sm:p-3 p-2 mb-1 rounded-xl">
               {formatTime(minutes)}
             </div>
             <span className="text-gray-400">:</span>
-            <div className="bg-orange-700 lg:p-5 md:p-4 sm:p-3 rounded-xl">
+            <div className="bg-orange-700 lg:p-5 md:p-4 sm:p-3 p-2 mb-1 rounded-xl">
               {formatTime(seconds)}
             </div>
           </div>
