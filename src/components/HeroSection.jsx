@@ -23,7 +23,7 @@ const HeroSection = () => {
             <span className="text-gray-300 font-extrabold bg-gray-800 lg:p-4 md:p-3 sm:p-2 p-2 lg:pr-8 md:pr-6 sm:pr-4 pr-3 lg:pl-6 md:pl-4 sm:pl-2 pl-2 rounded-r-full sm:w-fit">
               Front
             </span>{" "}
-            <span className="sm:flex lg:flex sm:h-fit lg:h-fit lg:p-4 md:p-3 sm:p-2 p-2">  - End Web{" "}</span>
+            <span className="sm:flex lg:flex sm:h-fit lg:h-fit lg:p-4 md:p-3 sm:p-2 p-2">End Web{" "}</span>
           
             <span className="text-gray-300 font-extrabold bg-gray-800 lg:p-4 md:p-3 sm:p-2 p-2 lg:pl-8 md:pl-6 sm:pl-4 pl-2 lg:pr-6 md:pr-4 sm:pr-2 pr-2 rounded-l-full sm:w-fit">
               Developer
